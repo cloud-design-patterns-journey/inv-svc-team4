@@ -47,3 +47,5 @@ tasks.register('copyJarToServerJar', Copy) {
     }
     into 'build/libs'
 }
+
+apply from: 'gradle/build-mongodb.gradle'
